@@ -229,6 +229,8 @@ public class Dumpper {
         } else if (value instanceof Map.Entry) {
             Map.Entry<?, ?> entry = (Map.Entry<?, ?>) value;
             dump(entry.getValue());
+        } else {
+            Log.e("Dumpper","error dump: "+value.toString());
         }
     }
 
