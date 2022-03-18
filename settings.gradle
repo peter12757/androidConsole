@@ -1,1 +1,2 @@
-include ':app', ':XConsole'
+include ':XConsole'
+include ':example'
